@@ -1,0 +1,14 @@
+#games {
+  padding: 30px;
+}
+
+#game, #genre, #system, #why {
+  padding: 10px;
+}
+
+label {
+  font-family: "Merriweather", "Times New Roman", serif;
+  font-size: 14pt;
+  padding: 10px;
+  display: block;
+}
