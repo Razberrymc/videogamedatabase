@@ -44,9 +44,9 @@
 
 <tr>
   <td><?php echo stripslashes($row['game']); ?></td>
-  <td><?php echo $row['genre']; ?></td>
-  <td><?php echo $row['system']; ?></td>
-  <td><?php echo $row['why']; ?></td>
+  <td><?php echo stripslashes($row['genre']); ?></td>
+  <td><?php echo stripslashes($row['system']); ?></td>
+  <td><?php echo stripslashes($row['why']); ?></td>
 </tr><!-- end of HTML table row -->
 
 <?php endwhile;  ?>
